@@ -7,7 +7,7 @@ logo_url:           https://avatars1.githubusercontent.com/u/13167380?s=460&v=4 
 # Site Settings
 url:                https://jboockmann.github.io # main url
 baseurl:            /
-permalink:          /:title # Post permalink
+permalink:          /posts/:title # Post permalink
 timezone:           Europe/Berlin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
 
