@@ -1,10 +1,48 @@
 <div class="footer">
   <span class="block social-icons">
-    <a href="https://www.github.com/jboockmann" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-    <a href="https://twitter.com/jboockmann" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    <a href="https://instagram.com/jboockmann" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-    <a href="https://www.linkedin.com/in/jan-boockmann-966769156/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-    <a href="mailto:Jan.Boockmann(at)gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    
+    {%- if site.social_orcid -%}
+    <a href="{{- site.social_github -}}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+    {%- endif -%}
+    
+    {%- if site.social_orcid -%}
+    <a href="{{- site.social_twitter -}}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    {%- endif -%}
+    
+    {%- if site.social_orcid -%}
+    <a href="{{- site.social_instagram -}}" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    {%- endif -%}
+    
+    {%- if site.social_orcid -%}
+    <a href="{{- site.social_linkedin -}}" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    {%- endif -%}
+    
+    {%- if site.social_orcid -%}
+    <a href="{{- site.social_mailto -}}" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    {%- endif -%}
+    
+    </br>
+    
+    {%- if site.social_orcid -%}
+    <a href="{{- site.social_orcid -}}" target="_blank"><i class="ai ai-orcid ai-1x" aria-hidden="true"></i></a>
+    {%- endif -%}
+    
+    {%- if site.social_googlescholar -%}
+    <a href="{{- site.social_googlescholar -}}" target="_blank"><i class="ai ai-google-scholar ai-1x" aria-hidden="true"></i></a>
+    {%- endif -%}
+    
+    {%- if site.social_orcid -%}
+    <a href="{{- site.social_dblp -}}" target="_blank"><i class="ai ai-dblp ai-1x" aria-hidden="true"></i></a>
+    {%- endif -%}
+    
+    {%- if site.social_orcid -%}
+    <a href="{{- site.social_researchgate -}}" target="_blank"><i class="ai ai-researchgate ai-1x" aria-hidden="true"></i></a>
+    {%- endif -%}
+    
+    {%- if site.social_orcid -%}
+    <a href="{{- site.social_acmdl -}}" target="_blank"><i class="ai ai-acmdl ai-1x" aria-hidden="true"></i></a>
+    {%- endif -%}
+    
   </span>
   
   <span class="block">

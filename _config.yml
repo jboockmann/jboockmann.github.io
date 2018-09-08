@@ -1,15 +1,26 @@
 # Site Info
 title:              "jboockmann"
 description:        "My personal blog"
-author_name:        "Jan H. Boockmann" # change this to your name
-logo_url:           https://avatars1.githubusercontent.com/u/13167380?s=460&v=4 # Get it from GitHub API: https://api.github.com/users/<username>
+author_name:        "Jan H. Boockmann"
+logo_url:           https://avatars1.githubusercontent.com/u/13167380?s=460&v=4
 
 # Site Settings
-url:                https://jboockmann.github.io # main url
+url:                https://jboockmann.github.io
 baseurl:            /
 permalink:          /posts/:title # Post permalink
 timezone:           Europe/Berlin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-mathjax:            true  # enables support for mathjax - set to 'false' to disable
+
+# Social settings
+social_github: "https://www.github.com/jboockmann"
+social_twitter: "https://twitter.com/jboockmann"
+social_instagram: "https://instagram.com/jboockmann"
+social_linkedin: "https://www.linkedin.com/in/jan-boockmann-966769156/"
+social_mailto: "mailto:Jan.Boockmann(at)gmail.com"
+social_orcid: "https://orcid.org/0000-0001-6816-8393/print"
+social_googlescholar: "https://scholar.google.com/citations?user=2loz2j8AAAAJ"
+social_dblp: "http://dblp.uni-trier.de/pers/hd/b/Boockmann:Jan_H="
+social_researchgate: "https://www.researchgate.net/profile/Jan_Boockmann"
+social_acmdl: "https://dl.acm.org/author_page.cfm?id=99659216581"
 
 # Site Build
 highlighter:        rouge
